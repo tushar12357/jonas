@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')`
+          backgroundImage: `url('https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')`,
         }}
       >
         {/* Dark overlay */}
@@ -23,10 +23,10 @@ const Hero: React.FC = () => {
             THAT WILL GUIDE YOU EVERY STEP OF THE WAY
           </span>
         </h1>
-        
-        <Link 
+
+        <Link
           to="/contact"
-          className="inline-block bg-orange-600 hover:bg-orange-700 text-white px-12 py-4 text-lg font-bold tracking-wider transition-colors duration-300 transform hover:scale-105"
+          className="inline-block bg-yellow-400 hover:bg-orange-700 text-white px-12 py-4 text-lg font-bold tracking-wider transition-colors duration-300 transform hover:scale-105"
         >
           ENQUIRE NOW
         </Link>

@@ -97,14 +97,14 @@ const OnlineTransformationPage: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-bold text-white mb-8">
+              <h1 className="text-5xl lg:text-6xl font-bold text-black mb-8">
                 A personalised online training program built for you.{" "}
               </h1>
-              <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+              <p className="text-xl text-black mb-8 leading-relaxed">
                 With expert guidance, a proven, tailored plan, and full support
                 on diet and training, Project Reshape’s online coaching helps
                 you achieve incredible transformation results — wherever you
@@ -196,7 +196,7 @@ const OnlineTransformationPage: React.FC = () => {
               </h2>
               <Link
                 to="/client-results"
-                className="mt-8 inline-block bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                className="mt-8 inline-block bg-yellow-400 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
               >
                 SEE MORE
               </Link>
@@ -249,7 +249,7 @@ const OnlineTransformationPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
                 <span className="text-white text-2xl font-bold">1:1</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -262,13 +262,13 @@ const OnlineTransformationPage: React.FC = () => {
               </p>
               <Link
                 to="/personal-training"
-                className="mt-4 inline-block text-orange-600 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-400 hover:text-orange-700 font-bold"
               >
                 EXPLORE NOW
               </Link>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
                 <span className="text-white text-2xl font-bold">💻</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -280,13 +280,13 @@ const OnlineTransformationPage: React.FC = () => {
               </p>
               <Link
                 to="/online-transformation"
-                className="mt-4 inline-block text-orange-600 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-400 hover:text-orange-700 font-bold"
               >
                 EXPLORE NOW
               </Link>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
                 <span className="text-white text-2xl font-bold">📊</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -298,7 +298,7 @@ const OnlineTransformationPage: React.FC = () => {
               </p>
               <Link
                 to="/client-results"
-                className="mt-4 inline-block text-orange-600 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-400 hover:text-orange-700 font-bold"
               >
                 EXPLORE NOW
               </Link>
@@ -306,7 +306,7 @@ const OnlineTransformationPage: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-32 bg-gray-900">
+      <section className="py-32 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-16 text-center">
             Frequently Asked Questions
@@ -323,7 +323,7 @@ const OnlineTransformationPage: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -345,7 +345,7 @@ const OnlineTransformationPage: React.FC = () => {
                   <input
                     type="text"
                     id="name"
-                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-orange-600"
+                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-yellow-400"
                     placeholder="Your Name"
                   />
                 </div>
@@ -356,13 +356,13 @@ const OnlineTransformationPage: React.FC = () => {
                   <input
                     type="email"
                     id="email"
-                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-orange-600"
+                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-yellow-400"
                     placeholder="Your Email"
                   />
                 </div>
                 <button
                   type="submit"
-                  className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                  className="bg-yellow-400 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
                 >
                   ENQUIRE NOW
                 </button>

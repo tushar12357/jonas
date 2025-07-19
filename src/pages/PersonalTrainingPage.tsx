@@ -62,9 +62,9 @@ const PersonalTrainingPage: React.FC = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl lg:text-6xl font-bold text-white mb-8">
+          <h1 className="text-5xl lg:text-6xl font-bold text-black mb-8">
             PERSONAL TRAINING
           </h1>
           <img
@@ -115,7 +115,7 @@ const PersonalTrainingPage: React.FC = () => {
               </h2>
               <Link
                 to="/client-results"
-                className="mt-8 inline-block bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                className="mt-8 inline-block bg-yellow-400 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
               >
                 SEE MORE
               </Link>
@@ -178,7 +178,7 @@ const PersonalTrainingPage: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -200,7 +200,7 @@ const PersonalTrainingPage: React.FC = () => {
                   <input
                     type="text"
                     id="name"
-                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-orange-600"
+                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-yellow-400"
                     placeholder="Your Name"
                   />
                 </div>
@@ -211,13 +211,13 @@ const PersonalTrainingPage: React.FC = () => {
                   <input
                     type="email"
                     id="email"
-                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-orange-600"
+                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-yellow-400"
                     placeholder="Your Email"
                   />
                 </div>
                 <button
                   type="submit"
-                  className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                  className="bg-yellow-400 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
                 >
                   ENQUIRE NOW
                 </button>

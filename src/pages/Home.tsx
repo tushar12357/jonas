@@ -21,10 +21,45 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen">
       {/* 1. Hero Section */}
-      <Hero />
+      <section className="mb-10 relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')`,
+          }}
+        >
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/60"></div>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+          <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <span className="block mb-2">WORLD CLASS COACHES</span>
+            <span className="block text-3xl sm:text-4xl lg:text-5xl font-normal">
+              THAT WILL GUIDE YOU EVERY STEP OF THE WAY
+            </span>
+          </h1>
+
+          <Link
+            to="/contact"
+            className="inline-block bg-yellow-400  text-white px-12 py-4 text-lg font-bold tracking-wider transition-colors duration-300 transform hover:scale-105"
+          >
+            ENQUIRE NOW
+          </Link>
+        </div>
+
+        {/* Scroll indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-white rounded-full mt-2 animate-bounce"></div>
+          </div>
+        </div>
+      </section>
 
       {/* 2. More Than Just Training Section */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 mx-10 rounded-xl  bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="text-center lg:text-left">
@@ -71,7 +106,7 @@ const Home: React.FC = () => {
               </h2>
               <Link
                 to="/client-results"
-                className="mt-8 inline-block bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                className="mt-8 inline-block bg-yellow-400  text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
               >
                 SEE MORE
               </Link>
@@ -113,7 +148,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* 4. World-Class Coaching Section */}
-      <section className="py-20 bg-gray-100">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="text-center lg:text-left">
@@ -165,12 +200,12 @@ const Home: React.FC = () => {
       </section>
 
       {/* 5. Our Proven Method Section */}
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             Our Proven Method of Coaching & Results
           </h2>
-          <p className="text-xl text-gray-300 max-w-4xl mx-auto mb-12 leading-relaxed">
+          <p className="text-xl  max-w-4xl mx-auto mb-12 leading-relaxed">
             From day one, we craft a fully personalized training and lifestyle
             plan tailored to your current fitness level, body type, lifestyle
             habits, and any past or existing injuries. Our precise,
@@ -200,57 +235,57 @@ const Home: React.FC = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+            <div className="text-center group bg-black py-10 rounded-xl cursor-pointer">
+              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
                 <span className="text-white text-2xl font-bold">1:1</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl font-bold text-white mb-4">
                 Personal Training
               </h3>
-              <p className="text-gray-600">
+              <p className="text-white">
                 Train one-on-one with the world’s top personal trainers in
                 private gyms worldwide. Optimise your training, nutrition, and
                 lifestyle with the ultimate personal training experience.
               </p>
               <Link
                 to="/personal-training"
-                className="mt-4 inline-block text-orange-600 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-400 font-bold"
               >
                 EXPLORE NOW
               </Link>
             </div>
-            <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+            <div className="text-center bg-black py-10 rounded-xl group cursor-pointer">
+              <div className="w-20 h-20  bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
                 <span className="text-white text-2xl font-bold">💻</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl font-bold text-white mb-4">
                 Online Transformation Blueprint
               </h3>
-              <p className="text-gray-600">
+              <p className="text-white">
                 Transform anywhere with Project Reshape’s results-driven online
                 training.
               </p>
               <Link
                 to="/online-transformation"
-                className="mt-4 inline-block text-orange-600 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-400  font-bold"
               >
                 EXPLORE NOW
               </Link>
             </div>
-            <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+            <div className="text-center bg-black py-10 rounded-xl group cursor-pointer">
+              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
                 <span className="text-white text-2xl font-bold">📊</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl font-bold text-white mb-4">
                 Client Results
               </h3>
-              <p className="text-gray-600">
+              <p className="text-white">
                 See the transformations of our clients and the results you can
                 expect.
               </p>
               <Link
                 to="/client-results"
-                className="mt-4 inline-block text-orange-600 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-400  font-bold"
               >
                 EXPLORE NOW
               </Link>
@@ -358,7 +393,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* 9. Get in Touch Section */}
-      <section className="py-20 bg-gray-900 text-white">
+      <section className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -380,7 +415,7 @@ const Home: React.FC = () => {
                   <input
                     type="text"
                     id="name"
-                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-orange-600"
+                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-yellow-400"
                     placeholder="Your Name"
                   />
                 </div>
@@ -391,13 +426,13 @@ const Home: React.FC = () => {
                   <input
                     type="email"
                     id="email"
-                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-orange-600"
+                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-yellow-400"
                     placeholder="Your Email"
                   />
                 </div>
                 <button
                   type="submit"
-                  className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                  className="bg-yellow-400  text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
                 >
                   ENQUIRE NOW
                 </button>
