@@ -178,54 +178,7 @@ const PersonalTrainingPage: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="py-20 bg-black text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <img
-                src="/contactus.png"
-                alt="Contact"
-                className="w-full rounded-lg"
-              />
-            </div>
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                Get in Touch
-              </h2>
-              <form className="space-y-4">
-                <div>
-                  <label htmlFor="name" className="block text-lg font-medium">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-yellow-400"
-                    placeholder="Your Name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-lg font-medium">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-yellow-400"
-                    placeholder="Your Email"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="bg-yellow-400 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
-                >
-                  ENQUIRE NOW
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+     
     </div>
   );
 };
