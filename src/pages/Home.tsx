@@ -43,7 +43,7 @@ const Home: React.FC = () => {
 
           <Link
             to="/contact"
-            className="inline-block bg-yellow-400  text-white px-12 py-4 text-lg font-bold tracking-wider transition-colors duration-300 transform hover:scale-105"
+            className="inline-block bg-orange-600  text-white px-12 py-4 text-lg font-bold tracking-wider transition-colors duration-300 transform hover:scale-105"
           >
             ENQUIRE NOW
           </Link>
