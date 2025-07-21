@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -17,6 +17,31 @@ const carouselSettings = {
 };
 
 const Home: React.FC = () => {
+  const [openFAQ, setOpenFAQ] = useState<number | null>(null);
+
+  const faqs = [
+    {
+      question: "How much does a personal trainer cost in Dubai?",
+      answer: "Personal training rates in our Dubai gyms vary based on location, timing, frequency, and package size. Each plan is tailored, with discounts available on larger packages."
+    },
+    {
+      question: "What does a typical training session with Project Reshape involve?",
+      answer: "Your first Project Reshape session includes a 90-minute consult with body and movement assessments to build your custom plan. Each session then delivers focused, high-intensity training — no time wasted, just real results."
+    },
+    {
+      question: "Why is personal training important?",
+      answer: "Resistance training takes skill — and learning it right saves time, effort, and injuries. With Project Reshape, you fast-track your results through expert guidance, personalized intensity, and real accountability. It’s the difference between years of trial and real progress now."
+    },
+    {
+      question: "Do I really need a personal trainer?",
+      answer: "If you're serious about lasting results, yes. A Project Reshape trainer is your expert guide — offering honest advice, accountability, and a results-driven plan backed by a global standard. It’s not a quick fix; it’s a long-term investment in your health."
+    },
+    {
+      question: "How long does a personal training session last?",
+      answer: "Personal training sessions with Project Reshape vary slightly depending on the location, but generally, each session lasts between 45 to 60 minutes."
+    }
+  ];
+
   return (
     <div className="min-h-screen">
       {/* 1. Hero Section */}
@@ -436,66 +461,28 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 text-center">
+         <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 text-center">
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
-            <div>
-              <h3 className="text-xl font-bold text-gray-900">
-                How much does a personal trainer cost in Dubai?{" "}
-              </h3>
-              <p className="text-gray-600">
-                Personal training rates in our Dubai gyms vary based on
-                location, timing, frequency, and package size. Each plan is
-                tailored, with discounts available on larger packages.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-gray-900">
-                What does a typical training session with Project Reshape
-                involve?{" "}
-              </h3>
-              <p className="text-gray-600">
-                Your first Project Reshape session includes a 90-minute consult
-                with body and movement assessments to build your custom
-                plan.Each session then delivers focused, high-intensity training
-                — no time wasted, just real results.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-gray-900">
-                Why is personal training important?
-              </h3>
-              <p className="text-gray-600">
-                Resistance training takes skill — and learning it right saves
-                time, effort, and injuries. With Project Reshape, you fast-track
-                your results through expert guidance, personalized intensity,
-                and real accountability. It’s the difference between years of
-                trial and real progress now.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-gray-900">
-                Do I really need a personal trainer?
-              </h3>
-              <p className="text-gray-600">
-                If you're serious about lasting results, yes. A Project Reshape
-                trainer is your expert guide — offering honest advice,
-                accountability, and a results-driven plan backed by a global
-                standard. It’s not a quick fix; it’s a long-term investment in
-                your health.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-gray-900">
-                How long does a personal training session last?
-              </h3>
-              <p className="text-gray-600">
-                Personal training sessions with Project Reshape vary slightly
-                depending on the location, but generally, each session lasts
-                between 45 to 60 minutes.
-              </p>
-            </div>
+            {faqs.map((faq, index) => (
+              <div key={index} className="border-b border-gray-200">
+                <button
+                  className="flex justify-between items-center w-full py-4 text-left focus:outline-none"
+                  onClick={() => setOpenFAQ(openFAQ === index ? null : index)}
+                >
+                  <h3 className="text-xl font-bold text-gray-900">{faq.question}</h3>
+                  <span className="text-gray-600 text-xl">
+                    {openFAQ === index ? '−' : '+'}
+                  </span>
+                </button>
+                {openFAQ === index && (
+                  <div className="pb-4">
+                    <p className="text-gray-600">{faq.answer}</p>
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>
