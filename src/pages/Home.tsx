@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="text-center lg:text-left">
-              <h2 className="text-4xl lg:text-5xl font-bold text-yellow-200 mb-8">
+              <h2 className="text-4xl lg:text-5xl font-bold text-[#ecf86e] mb-8">
                 More than just training — we are with you every step of the way
               </h2>
             </div>
@@ -136,7 +136,7 @@ const Home: React.FC = () => {
             <div className="text-center">
               <Link
                 to="/client-results"
-                className="mt-8 inline-block bg-yellow-200 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300 rounded-full"
+                className="mt-8 inline-block bg-[#ecf86e] text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300 rounded-full"
               >
                 SEE MORE
               </Link>
@@ -234,7 +234,7 @@ const Home: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center group bg-black py-10 rounded-xl cursor-pointer">
-              <div className="w-20 h-20 bg-yellow-200 rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
+              <div className="w-20 h-20 bg-[#ecf86e] rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
                 <span className="text-white text-2xl font-bold">1:1</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">
@@ -247,13 +247,13 @@ const Home: React.FC = () => {
               </p>
               <Link
                 to="/personal-training"
-                className="mt-4 inline-block text-yellow-200 font-bold"
+                className="mt-4 inline-block text-[#ecf86e] font-bold"
               >
                 EXPLORE NOW
               </Link>
             </div>
             <div className="text-center bg-black py-10 rounded-xl group cursor-pointer">
-              <div className="w-20 h-20  bg-yellow-200 rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
+              <div className="w-20 h-20  bg-[#ecf86e] rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
                 <span className="text-white text-2xl font-bold">💻</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">
@@ -265,13 +265,13 @@ const Home: React.FC = () => {
               </p>
               <Link
                 to="/online-transformation"
-                className="mt-4 inline-block text-yellow-200  font-bold"
+                className="mt-4 inline-block text-[#ecf86e]  font-bold"
               >
                 EXPLORE NOW
               </Link>
             </div>
             <div className="text-center bg-black py-10 rounded-xl group cursor-pointer">
-              <div className="w-20 h-20 bg-yellow-200 rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
+              <div className="w-20 h-20 bg-[#ecf86e] rounded-full flex items-center justify-center mx-auto mb-6  transition-colors">
                 <span className="text-white text-2xl font-bold">📊</span>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">
@@ -283,7 +283,7 @@ const Home: React.FC = () => {
               </p>
               <Link
                 to="/client-results"
-                className="mt-4 inline-block text-yellow-200  font-bold"
+                className="mt-4 inline-block text-[#ecf86e]  font-bold"
               >
                 EXPLORE NOW
               </Link>
@@ -332,7 +332,7 @@ const Home: React.FC = () => {
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="bg-yellow-200 p-6 rounded-lg text-center">
+              <div className="bg-[#ecf86e] p-6 rounded-lg text-center">
                 <div className="mb-4">
                   <span className="inline-block bg-black rounded-full p-2">
                     <span className="text-white">🍽️</span>
@@ -346,7 +346,7 @@ const Home: React.FC = () => {
                   calories & supplements to support optimal performance
                 </p>
               </div>
-              <div className="bg-yellow-200 p-6 rounded-lg text-center">
+              <div className="bg-[#ecf86e] p-6 rounded-lg text-center">
                 <div className="mb-4">
                   <span className="inline-block bg-black rounded-full p-2">
                     <span className="text-white">💪</span>
@@ -362,7 +362,7 @@ const Home: React.FC = () => {
               </div>
               <div className="bg-black p-6 rounded-lg text-center">
                 <div className="mb-4">
-                  <span className="inline-block bg-yellow-200 rounded-full p-2">
+                  <span className="inline-block bg-[#ecf86e] rounded-full p-2">
                     <span className="text-black">⚡</span>
                   </span>
                 </div>
@@ -375,7 +375,7 @@ const Home: React.FC = () => {
                   peak.
                 </p>
               </div>
-              <div className="bg-yellow-200 p-6 rounded-lg text-center">
+              <div className="bg-[#ecf86e] p-6 rounded-lg text-center">
                 <div className="mb-4">
                   <span className="inline-block bg-black rounded-full p-2">
                     <span className="text-white">❤️</span>
@@ -389,7 +389,7 @@ const Home: React.FC = () => {
                   enhance fat loss, and improve cardiovascular health
                 </p>
               </div>
-              <div className="bg-yellow-200 p-6 rounded-lg text-center">
+              <div className="bg-[#ecf86e] p-6 rounded-lg text-center">
                 <div className="mb-4">
                   <span className="inline-block bg-black rounded-full p-2">
                     <span className="text-white">🧠</span>

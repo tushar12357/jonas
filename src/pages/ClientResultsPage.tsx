@@ -32,7 +32,7 @@ const ClientResultsPage: React.FC = () => {
             {images.map((img, index) => (
               <div
                 key={index}
-                className="bg-yellow-200 rounded-lg p-2 text-center"
+                className="bg-[#ecf86e] rounded-lg p-2 text-center"
               >
                 <img
                   src={img}

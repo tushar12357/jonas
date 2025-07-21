@@ -55,7 +55,7 @@ const ClientResults: React.FC = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 {testimonial.name}
               </h3>
-              <p className="text-yellow-200 font-semibold mb-4">
+              <p className="text-[#ecf86e] font-semibold mb-4">
                 {testimonial.result}
               </p>
               <p className="text-gray-600 italic leading-relaxed">
@@ -66,7 +66,7 @@ const ClientResults: React.FC = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-yellow-200 hover:bg-yellow-200 text-black px-8 py-3 font-bold tracking-wider transition-colors duration-300">
+          <button className="bg-[#ecf86e] hover:bg-[#ecf86e] text-black px-8 py-3 font-bold tracking-wider transition-colors duration-300">
             SEE MORE RESULTS
           </button>
         </div>

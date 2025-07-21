@@ -79,7 +79,7 @@ const App: React.FC = () => {
                   </div>
                   <button
                     type="submit"
-                    className="bg-yellow-200 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                    className="bg-[#ecf86e] text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
                   >
                     ENQUIRE NOW
                   </button>

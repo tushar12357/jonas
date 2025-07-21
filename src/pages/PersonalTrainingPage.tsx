@@ -115,7 +115,7 @@ const PersonalTrainingPage: React.FC = () => {
               </h2>
               <Link
                 to="/client-results"
-                className="mt-8 inline-block bg-yellow-200 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                className="mt-8 inline-block bg-[#ecf86e] hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
               >
                 SEE MORE
               </Link>

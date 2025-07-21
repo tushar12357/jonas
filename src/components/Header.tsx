@@ -27,8 +27,8 @@ const Header: React.FC = () => {
               to="/why-us"
               className={`transition-colors font-medium ${
                 isActive("/why-us")
-                  ? "text-yellow-200"
-                  : "text-white hover:text-yellow-200"
+                  ? "text-[#ecf86e]"
+                  : "text-white hover:text-[#ecf86e]"
               }`}
             >
               Why Us?
@@ -37,8 +37,8 @@ const Header: React.FC = () => {
               to="/personal-training"
               className={`transition-colors font-medium ${
                 isActive("/personal-training")
-                  ? "text-yellow-200"
-                  : "text-white hover:text-yellow-200"
+                  ? "text-[#ecf86e]"
+                  : "text-white hover:text-[#ecf86e]"
               }`}
             >
               Personal Training
@@ -47,8 +47,8 @@ const Header: React.FC = () => {
               to="/online-transformation"
               className={`transition-colors font-medium ${
                 isActive("/online-transformation")
-                  ? "text-yellow-200"
-                  : "text-white hover:text-yellow-200"
+                  ? "text-[#ecf86e]"
+                  : "text-white hover:text-[#ecf86e]"
               }`}
             >
               Online Transformation
@@ -57,15 +57,15 @@ const Header: React.FC = () => {
               to="/client-results"
               className={`transition-colors font-medium ${
                 isActive("/client-results")
-                  ? "text-yellow-200"
-                  : "text-white hover:text-yellow-200"
+                  ? "text-[#ecf86e]"
+                  : "text-white hover:text-[#ecf86e]"
               }`}
             >
               Client Results
             </Link>
             <Link
               to="/contact"
-              className="bg-yellow-200 text-black px-6 py-2 rounded-full font-bold hover:bg-yellow-200 transition-colors"
+              className="bg-[#ecf86e] text-black px-6 py-2 rounded-full font-bold hover:bg-[#ecf86e] transition-colors"
             >
               ENQUIRE NOW
             </Link>
@@ -86,35 +86,35 @@ const Header: React.FC = () => {
             <nav className="flex flex-col space-y-4 p-6">
               <Link
                 to="/why-us"
-                className="text-white hover:text-yellow-200 transition-colors font-medium"
+                className="text-white hover:text-[#ecf86e] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Why Us?
               </Link>
               <Link
                 to="/personal-training"
-                className="text-white hover:text-yellow-200 transition-colors font-medium"
+                className="text-white hover:text-[#ecf86e] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Personal Training
               </Link>
               <Link
                 to="/online-transformation"
-                className="text-white hover:text-yellow-200 transition-colors font-medium"
+                className="text-white hover:text-[#ecf86e] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Online Transformation
               </Link>
               <Link
                 to="/client-results"
-                className="text-white hover:text-yellow-200 transition-colors font-medium"
+                className="text-white hover:text-[#ecf86e] transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Client Results
               </Link>
               <Link
                 to="/contact"
-                className="bg-yellow-200 text-black px-6 py-3 rounded-full font-bold hover:bg-yellow-200 transition-colors w-full text-center"
+                className="bg-[#ecf86e] text-black px-6 py-3 rounded-full font-bold hover:bg-[#ecf86e] transition-colors w-full text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 ENQUIRE NOW

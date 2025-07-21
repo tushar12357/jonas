@@ -46,7 +46,7 @@ const OnlineTransformation: React.FC = () => {
             <div className="space-y-6">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-yellow-200 rounded-lg flex items-center justify-center text-black">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ecf86e] rounded-lg flex items-center justify-center text-black">
                     {feature.icon}
                   </div>
                   <div>
@@ -59,7 +59,7 @@ const OnlineTransformation: React.FC = () => {
               ))}
             </div>
 
-            <button className="mt-8 bg-yellow-200 hover:bg-orange-700 text-white px-8 py-3 font-bold tracking-wider transition-colors duration-300">
+            <button className="mt-8 bg-[#ecf86e] hover:bg-orange-700 text-white px-8 py-3 font-bold tracking-wider transition-colors duration-300">
               START YOUR TRANSFORMATION
             </button>
           </div>

@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
 
         <Link
           to="/contact"
-          className="inline-block bg-yellow-200 hover:bg-orange-700 text-white px-12 py-4 text-lg font-bold tracking-wider transition-colors duration-300 transform hover:scale-105"
+          className="inline-block bg-[#ecf86e] hover:bg-orange-700 text-white px-12 py-4 text-lg font-bold tracking-wider transition-colors duration-300 transform hover:scale-105"
         >
           ENQUIRE NOW
         </Link>
