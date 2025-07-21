@@ -140,7 +140,7 @@ const OnlineTransformationPage: React.FC = () => {
               className="rounded-lg shadow-md"
             />
 
-            <div className="bg-yellow-300 p-6 rounded-lg shadow-md flex flex-col justify-center">
+            <div className="bg-yellow-200 p-6 rounded-lg shadow-md flex flex-col justify-center">
               <p className="text-lg">
                 At Project Reshape, our "maximum results, minimum time" approach
                 drives everything we do — including online coaching. You commit
@@ -171,7 +171,7 @@ const OnlineTransformationPage: React.FC = () => {
               alt="Training Session 2"
               className="rounded-lg shadow-md"
             />
-            <div className="bg-yellow-300 p-6 rounded-lg shadow-md flex flex-col justify-center">
+            <div className="bg-yellow-200 p-6 rounded-lg shadow-md flex flex-col justify-center">
               <p className="text-lg">
                 What You Can Expect — we’re global leaders in our field for one
                 simple reason — we consistently deliver outstanding results in
@@ -196,7 +196,7 @@ const OnlineTransformationPage: React.FC = () => {
               </h2>
               <Link
                 to="/client-results"
-                className="mt-8 inline-block bg-yellow-400 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                className="mt-8 inline-block bg-yellow-200 hover:bg-orange-700 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
               >
                 SEE MORE
               </Link>
@@ -249,7 +249,7 @@ const OnlineTransformationPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+              <div className="w-20 h-20 bg-yellow-200 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
                 <span className="text-white text-2xl font-bold">1:1</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -262,13 +262,13 @@ const OnlineTransformationPage: React.FC = () => {
               </p>
               <Link
                 to="/personal-training"
-                className="mt-4 inline-block text-yellow-400 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-200 hover:text-orange-700 font-bold"
               >
                 EXPLORE NOW
               </Link>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+              <div className="w-20 h-20 bg-yellow-200 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
                 <span className="text-white text-2xl font-bold">💻</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -280,13 +280,13 @@ const OnlineTransformationPage: React.FC = () => {
               </p>
               <Link
                 to="/online-transformation"
-                className="mt-4 inline-block text-yellow-400 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-200 hover:text-orange-700 font-bold"
               >
                 EXPLORE NOW
               </Link>
             </div>
             <div className="text-center group cursor-pointer">
-              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
+              <div className="w-20 h-20 bg-yellow-200 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-700 transition-colors">
                 <span className="text-white text-2xl font-bold">📊</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -298,7 +298,7 @@ const OnlineTransformationPage: React.FC = () => {
               </p>
               <Link
                 to="/client-results"
-                className="mt-4 inline-block text-yellow-400 hover:text-orange-700 font-bold"
+                className="mt-4 inline-block text-yellow-200 hover:text-orange-700 font-bold"
               >
                 EXPLORE NOW
               </Link>
@@ -323,7 +323,6 @@ const OnlineTransformationPage: React.FC = () => {
           </div>
         </div>
       </section>
-    
     </div>
   );
 };

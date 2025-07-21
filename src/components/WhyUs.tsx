@@ -4,25 +4,25 @@ import { Award, Users, Target, Clock } from "lucide-react";
 const WhyUs: React.FC = () => {
   const features = [
     {
-      icon: <Award className="w-12 h-12 text-yellow-400" />,
+      icon: <Award className="w-12 h-12 text-yellow-200" />,
       title: "Certified Trainers",
       description:
         "Our team consists of highly qualified and certified personal trainers with years of experience.",
     },
     {
-      icon: <Users className="w-12 h-12 text-yellow-400" />,
+      icon: <Users className="w-12 h-12 text-yellow-200" />,
       title: "Personalized Approach",
       description:
         "Every program is tailored specifically to your goals, fitness level, and lifestyle.",
     },
     {
-      icon: <Target className="w-12 h-12 text-yellow-400" />,
+      icon: <Target className="w-12 h-12 text-yellow-200" />,
       title: "Proven Results",
       description:
         "Our clients consistently achieve their fitness goals through our systematic approach.",
     },
     {
-      icon: <Clock className="w-12 h-12 text-yellow-400" />,
+      icon: <Clock className="w-12 h-12 text-yellow-200" />,
       title: "Flexible Scheduling",
       description:
         "Train when it works for you with our flexible scheduling options and online programs.",

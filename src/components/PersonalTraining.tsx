@@ -60,7 +60,7 @@ const PersonalTraining: React.FC = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-yellow-400 hover:bg-orange-700 text-white px-8 py-3 font-bold tracking-wider transition-colors duration-300">
+          <button className="bg-yellow-200 hover:bg-orange-700 text-white px-8 py-3 font-bold tracking-wider transition-colors duration-300">
             LEARN MORE
           </button>
         </div>

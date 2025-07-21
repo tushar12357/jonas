@@ -30,19 +30,19 @@ const Footer: React.FC = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-gray-400 hover:text-yellow-400 transition-colors"
+                className="text-gray-400 hover:text-yellow-200 transition-colors"
               >
                 <Instagram size={24} />
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-yellow-400 transition-colors"
+                className="text-gray-400 hover:text-yellow-200 transition-colors"
               >
                 <Facebook size={24} />
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-yellow-400 transition-colors"
+                className="text-gray-400 hover:text-yellow-200 transition-colors"
               >
                 <Twitter size={24} />
               </a>
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   to="/why-us"
-                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                  className="text-gray-300 hover:text-yellow-200 transition-colors"
                 >
                   Why Us?
                 </Link>
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   to="/personal-training"
-                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                  className="text-gray-300 hover:text-yellow-200 transition-colors"
                 >
                   Personal Training
                 </Link>
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   to="/online-transformation"
-                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                  className="text-gray-300 hover:text-yellow-200 transition-colors"
                 >
                   Online Transformation
                 </Link>
@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   to="/client-results"
-                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                  className="text-gray-300 hover:text-yellow-200 transition-colors"
                 >
                   Client Results
                 </Link>
@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   to="/contact"
-                  className="text-gray-300 hover:text-yellow-400 transition-colors"
+                  className="text-gray-300 hover:text-yellow-200 transition-colors"
                 >
                   Contact
                 </Link>

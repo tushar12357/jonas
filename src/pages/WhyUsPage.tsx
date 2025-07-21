@@ -91,7 +91,7 @@ const WhyUsPage: React.FC = () => {
             />
           </div>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-yellow-300 p-8 rounded-lg shadow-md">
+            <div className="bg-yellow-200 p-8 rounded-lg shadow-md">
               <h3 className="text-xl font-bold">
                 A DEDICATED TRAINING FACILITY
               </h3>
@@ -99,13 +99,13 @@ const WhyUsPage: React.FC = () => {
                 <li>Private, crowd-free space</li>
               </ul>
             </div>
-            <div className="bg-yellow-300 p-8 rounded-lg shadow-md">
+            <div className="bg-yellow-200 p-8 rounded-lg shadow-md">
               <h3 className="text-xl font-bold">PERSONALIZED TRAINING</h3>
               <ul className="mt-4 text-gray-800">
                 <li>Top 1% world-class trainers</li>
               </ul>
             </div>
-            <div className="bg-yellow-300 p-8 rounded-lg shadow-md">
+            <div className="bg-yellow-200 p-8 rounded-lg shadow-md">
               <h3 className="text-xl font-bold">PROVEN ACCOUNTABILITY</h3>
               <ul className="mt-4 text-gray-800">
                 <li>Daily check-ins to stay on track</li>
@@ -139,21 +139,21 @@ const WhyUsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 text-center">
             <div>
-              <div className="text-5xl font-bold text-yellow-400 mb-6">
+              <div className="text-5xl font-bold text-yellow-200 mb-6">
                 500+
               </div>
               <p className="text-white text-lg">Lives Transformed</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-yellow-400 mb-6">10+</div>
+              <div className="text-5xl font-bold text-yellow-200 mb-6">10+</div>
               <p className="text-white text-lg">Years of Excellence</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-yellow-400 mb-6">98%</div>
+              <div className="text-5xl font-bold text-yellow-200 mb-6">98%</div>
               <p className="text-white text-lg">Client Success Rate</p>
             </div>
             <div>
-              <div className="text-5xl font-bold text-yellow-400 mb-6">
+              <div className="text-5xl font-bold text-yellow-200 mb-6">
                 24/7
               </div>
               <p className="text-white text-lg">Support Available</p>

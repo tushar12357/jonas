@@ -1,21 +1,21 @@
-import React, { useRef } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import WhyUsPage from './pages/WhyUsPage';
-import PersonalTrainingPage from './pages/PersonalTrainingPage';
-import OnlineTransformationPage from './pages/OnlineTransformationPage';
-import ClientResultsPage from './pages/ClientResultsPage';
-import EnquireNow from './components/EnquireNow';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React, { useRef } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import WhyUsPage from "./pages/WhyUsPage";
+import PersonalTrainingPage from "./pages/PersonalTrainingPage";
+import OnlineTransformationPage from "./pages/OnlineTransformationPage";
+import ClientResultsPage from "./pages/ClientResultsPage";
+import EnquireNow from "./components/EnquireNow";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const App: React.FC = () => {
   const contactRef = useRef<HTMLElement>(null);
 
   const scrollToContact = () => {
-    contactRef.current?.scrollIntoView({ behavior: 'smooth' });
+    contactRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -24,10 +24,16 @@ const App: React.FC = () => {
         <Header />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Home contactRef={contactRef}/>} />
+            <Route path="/" element={<Home contactRef={contactRef} />} />
             <Route path="/why-us" element={<WhyUsPage />} />
-            <Route path="/personal-training" element={<PersonalTrainingPage />} />
-            <Route path="/online-transformation" element={<OnlineTransformationPage />} />
+            <Route
+              path="/personal-training"
+              element={<PersonalTrainingPage />}
+            />
+            <Route
+              path="/online-transformation"
+              element={<OnlineTransformationPage />}
+            />
             <Route path="/client-results" element={<ClientResultsPage />} />
           </Routes>
         </main>
@@ -58,7 +64,10 @@ const App: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-lg font-medium">
+                    <label
+                      htmlFor="email"
+                      className="block text-lg font-medium"
+                    >
                       Email
                     </label>
                     <input
@@ -70,7 +79,7 @@ const App: React.FC = () => {
                   </div>
                   <button
                     type="submit"
-                    className="bg-yellow-400 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
+                    className="bg-yellow-200 text-white px-8 py-3 text-lg font-bold tracking-wider transition-colors duration-300"
                   >
                     ENQUIRE NOW
                   </button>
